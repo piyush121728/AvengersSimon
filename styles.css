@@ -1,0 +1,83 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  /* background: linear-gradient(#0B0930, #1A1A64, #2C2A89 ,#453AA4 ,#5C49C6 ,#7B6FDE); */
+
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  background-image: url(ironman.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.green {
+  /* background-color: green; */
+  background-image: url(hulk.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.blue {
+  /* background-color: blue; */
+  background-image: url(captainamerica.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.yellow {
+  background-color: yellow;
+  background-image: url(thor.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.start{
+  width: 50%;
+  margin: auto;
+}
+.start button{
+  cursor: pointer;
+  background-color: black;
+  border-radius: 10px;
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+  padding:5px;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+footer{
+  color: #fff;
+  margin-top: 1%;
+}
