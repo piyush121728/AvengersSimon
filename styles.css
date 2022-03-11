@@ -34,28 +34,24 @@ body {
 }
 
 .red {
-  background-color: red;
   background-image: url(ironman.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .green {
-  /* background-color: green; */
   background-image: url(hulk.webp);
   background-position: center;
   background-size: cover;
 }
 
 .blue {
-  /* background-color: blue; */
   background-image: url(captainamerica.webp);
   background-position: center;
   background-size: cover;
 }
 
 .yellow {
-  background-color: yellow;
   background-image: url(thor.jpg);
   background-position: center;
   background-size: cover;
